@@ -162,8 +162,7 @@ nav .phone:hover {
   height: 3px;
   background-color: rgb(189, 15, 15);
   transition: all 0.3s;
-  z-index: 2;
-
+  
 }
 
 .line2 {
@@ -172,7 +171,7 @@ nav .phone:hover {
   height: 3px;
   background-color:rgb(189, 15, 15);
   transition: all 0.3s;
-  z-index: 2;
+ 
 }
 
 .line3 {
@@ -181,7 +180,7 @@ nav .phone:hover {
   height: 3px;
   background-color: rgb(189, 15, 15);
   transition: all 0.3s;
-  z-index: 2;
+ 
 }
 
 

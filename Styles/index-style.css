@@ -11,12 +11,12 @@
 body {
    
 
-color: aliceblue;
+
 background-color: black;
 
 }
-
-
+.content-container{text-align: center;color: aliceblue;}
+.content-container .redText{color: #b30018;}
 
 h1 .blackDot,
 h1 .blackText{color:rgb(0, 0, 0);}
@@ -37,7 +37,7 @@ h1 .redText{color: #b30018;}
 
 .whiteSection li{padding: 10px;}
 
-.content-container{text-align: center;}
+
 
 .widgetSection .elfsight-app-05dc06ba-bfba-4127-b40c-516ef95a5370{margin: 0 auto;}
 
@@ -101,7 +101,7 @@ h1 .redText{color: #b30018;}
 .btn{width: 250px;background-color: #b30018;height: 50px;border-radius: 10px;color: white;border: 1px solid white;}
 
 
-.heroImageContainer{position: relative;margin-bottom: 30px;}
+.heroImageContainer{position: relative;margin-bottom: 30px;color: aliceblue;}
 
 
 .heroImageContainer::after {
