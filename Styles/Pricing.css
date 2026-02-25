@@ -15,10 +15,64 @@ body {
 }
 
 
+.Sessions-Include li{padding-bottom: 50px;line-height: 20px;}
+
+.card4 h3,
+.card3 h3,
+.card2 h3,
+.card1 h3{ font-size: clamp(20px, 3.5vw, 30px);;margin-bottom: 20px;color: white;position: absolute;z-index: 3;left: 50%;transform: translateX(-50%);}
+
+
+.card4 p,
+.card3 p,
+.card2 p,
+.card1 p {position: absolute;color: white;top: 50%;transform: translateY(-50%);z-index: 2;text-align: left;margin-top: 30px;margin: 10px;font-size: clamp(16px, 2.5vw, 20px)}
+
+.card4 a,
+.card3 a,
+.card2 a,
+ .card1 a{position: absolute;bottom: 40px;text-decoration: none;color: red;z-index: 2;padding: 10px;font-weight: bolder;}
+
+.card4,
+.card3,
+.card2,
+.card1{width:clamp( 200px,70vw,700px);height:550px;margin: 10px;transition: ease 1.2s;background-color: rgba(0, 0, 0, 0.295);padding: 5px;position: relative;background-position: center;background-repeat: no-repeat;background-size: cover;display: flex;}
+
+
+
+.card1{background-image: url("../pics/IMG_7933.jpg")}
+.card2{background-image: url("../pics/IMG_7911_SnapseedCopy.jpg")}
+
+
+.card3{background-image: url("../pics/IMG_7889 2.jpg")}
+
+
+.card4{background-image: url("../pics/IMG_8091.JPG")}
+
+.card4::after ,
+.card3::after ,
+.card2::after ,
+.card1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6; 
+
+}
+
+
+.cardContainer span{color: white;}
+
+.cardContainer{display: flex;flex-direction: column;align-items: center;}
+
 
 .Page-content-container{
    background-color: black;
-      
+     
     
    
     }
@@ -28,10 +82,11 @@ body {
     margin: 0 auto;
    display: flex;
    flex-direction: column;
-   align-items: center
+   align-items: center;
+   padding-top: 150px;
     ;}
 
-.content-container img{width: 100%;max-height: 500px;}
+.content-container img{width: 100%;max-height: 700px;margin-bottom: 30px;}
 
 .carousel-progress-pics{
    width: 100%;
@@ -189,8 +244,9 @@ hr{
 
 
 footer {
-    background-color: white;
-    color:black;
+   
+    background-color: black;
+    color:white;
     padding-bottom: 20px;
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
@@ -215,7 +271,7 @@ footer p {
 footer a {
 
     text-decoration: none;
-    color:black;
+    color:white;
     text-align: left;
    margin-left: 20px;
     margin-top: 10px;
@@ -224,7 +280,6 @@ footer a {
 
 
 .footerItems {display: flex;flex-direction: column;}
-
 
 
 

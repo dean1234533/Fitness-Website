@@ -15,8 +15,12 @@ body {
 background-color: black;
 
 }
+
+.consultation-Guide-Container img{width:clamp( 20px,2vw,30px);color: #b30018;}
+
+
 .content-container{text-align: center;color: aliceblue;}
-.content-container .redText{color: #b30018;}
+ .redText{color: #b30018;}
 
 h1 .blackDot,
 h1 .blackText{color:rgb(0, 0, 0);}
@@ -60,12 +64,15 @@ h1 .redText{color: #b30018;}
 .card4 a,
 .card3 a,
 .card2 a,
- .card1 a{position: absolute;bottom: 40px;text-decoration: none;color: black;color: white;z-index: 2;padding: 10px;}
+ .card1 a{position: absolute;bottom: 40px;text-decoration: none;color: red;z-index: 2;padding: 10px;font-weight: bolder;}
 
 .card4,
 .card3,
 .card2,
-.card1{width: clamp(300px,45vw,450px);height:350px;margin: 10px;border-radius: 10px;transition: ease 1.2s;border: 3px solid rgb(166, 30, 30), ;background-color: rgba(0, 0, 0, 0.295);padding: 5px;position: relative;background-position: center;background-repeat: no-repeat;background-size: cover;display: flex;}
+.card1{width: clamp(300px,45vw,450px);height:350px;margin: 10px;border-radius: 10px;transition: ease 1.2s;border: 3px solid rgb(166, 30, 30), ;background-color: rgba(0, 0, 0, 0.295);padding: 5px;position: relative;background-position: center;background-repeat: no-repeat;background-size: cover;display: flex;border-radius: 48px;
+
+box-shadow:  21px 21px 45px #969696,
+             -21px -21px 45px #ffffff;}
 
 .card1{background-image: url("../pics/IMG_7933.jpg")}
 .card2{background-image: url("../pics/IMG_7911_SnapseedCopy.jpg")}
@@ -92,9 +99,11 @@ h1 .redText{color: #b30018;}
 }
 
 
+.cardContainer span{color: white;}
+
 .cardContainer{display: flex;flex-direction: column;align-items: center;}
 
-.heroImageContainer .heroContent{position: absolute;z-index: 4;bottom:10% ;text-align: left;margin: 20px;overflow-y: hidden;}
+.heroImageContainer .heroContent{position: absolute;z-index: 4;bottom:50%;transform: translateY(50%) ;text-align: left;margin: 20px;overflow-y: hidden;}
 
 .heroContent .fade-wrapper{margin: 30px;}
 
@@ -127,23 +136,20 @@ h1 .redText{color: #b30018;}
 
 
 
-.fade-wrapper > * {
-  opacity: 0 ;
-  transform: translateY(20px) ;
- 
-}
 
 
-.fade-wrapper .consultation-button {
+.consultation-btn,
+.consultation-button {
       display: inline-block;
       margin: 0 auto;
       padding: 10px 20px;
       background-color: #c33e3e;
       color: white;
       border: 2px solid white;
-      font-size: 18px;
+      font-size:clamp( 18px,3vw,20px);
       cursor: pointer;
       text-decoration: none;
+      margin-block: 20px;
     font-weight: bold;
     border-radius: 5px;
     
@@ -151,7 +157,9 @@ h1 .redText{color: #b30018;}
     }
 
 
-
+.consultation-Guide-List img {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
  
 
 .Free-Consultation ,
@@ -168,17 +176,9 @@ h1 .redText{color: #b30018;}
     
 }    
 
-.Sessions-Include li,
-.Service-List li,
-.consultation-Guide-List li,
-.Personal-Training-Sessions  li {
-   
-   
-    list-style-position: inside;
-    padding-left: 20px;
-    text-align: left;
+
   
-}
+
 
  
 

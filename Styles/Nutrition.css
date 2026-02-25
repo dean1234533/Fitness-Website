@@ -256,8 +256,9 @@ hr{
 
 
 footer {
-    background-color: white;
-    color:black;
+   
+    background-color: black;
+    color:white;
     padding-bottom: 20px;
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
@@ -282,7 +283,7 @@ footer p {
 footer a {
 
     text-decoration: none;
-    color:black;
+    color:white;
     text-align: left;
    margin-left: 20px;
     margin-top: 10px;
@@ -291,6 +292,8 @@ footer a {
 
 
 .footerItems {display: flex;flex-direction: column;}
+
+
 
 
 

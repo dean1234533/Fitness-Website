@@ -8,11 +8,12 @@ body {
 }
 
 nav img {
-  width:clamp( 110px,10vw,190px);
-  height:auto;
+  width:clamp( 70px,50vw,90px);
+  height:clamp( 70px,50vw,0px); ;
+  opacity: 1;
   display: block;
   object-fit: cover;
-  
+  transition: all 1.2s;
 }
 
 
@@ -27,21 +28,21 @@ nav .phone:hover {
 
 .navContainer {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 
 .navBar {
   display: flex;
   width: 100%;
-  background-color: white;
-  height: auto;
+  background-color: rgba(255, 255, 255, 0.64);
+  height: 80px;
   transition: all 1.2s;
-  border-bottom: 1px solid rgb(189, 15, 15);
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
+border-bottom: 2px solid rgb(201, 18, 18);
 
 }
 
@@ -51,16 +52,19 @@ nav .phone:hover {
   margin: 0;
   padding: 0;
   list-style: none;
+  
  
 }
 
 .Active img{
-  display: none;
+ opacity: 0;
+
 }
 
 .Active {
   height: 500px;
-  
+  background-color: white;
+
 }
 
 .Active ul {
@@ -76,11 +80,12 @@ nav .phone:hover {
  
 }
 
-.Active ul li {
+.Active ul li a {
   font-weight: bolder;
   font-size: larger;
   margin-top: -40px;
   line-height: 50px;
+  
  
 }
 
@@ -154,13 +159,14 @@ nav .phone:hover {
 
 }
 
-.Active .Navbtn{position: absolute;top: 50px;}
+.navBar .Navbtn,
+.Active .Navbtn{position: absolute;top: 40px;}
 
 .line1 {
   display: block;
   width:25px;
   height: 3px;
-  background-color: rgb(189, 15, 15);
+  background-color: black !important;
   transition: all 0.3s;
   
 }
@@ -169,7 +175,7 @@ nav .phone:hover {
   display: block;
   width: 25px;
   height: 3px;
-  background-color:rgb(189, 15, 15);
+  background-color:black !important;
   transition: all 0.3s;
  
 }
@@ -178,7 +184,7 @@ nav .phone:hover {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: rgb(189, 15, 15);
+  background-color: black !important;
   transition: all 0.3s;
  
 }
@@ -234,17 +240,20 @@ nav .phone:hover {
     
     
    margin-top: 50px;
-   transform: translateY(-20%);
+   transform: translateY(-30%);
     color:black;
     text-decoration: none;
     animation: none !important;
     z-index: 3;
-   
+   font-size: clamp(20px, 3vw, 25px);
 
   }
 
   .navBar ul li a:hover {
-    color: red;
+    
+   text-decoration: underline;
+text-decoration-color: rgb(189, 15, 15);
+transition: ease 1.2s;
   }
 
   
@@ -272,5 +281,6 @@ nav .phone:hover {
  
   .navBar {
     justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
   }
 }
