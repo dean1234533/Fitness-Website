@@ -35,7 +35,7 @@ nav .phone:hover {
 .navBar {
   display: flex;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.64);
+  background-color: rgb(255, 255, 255);
   height: 80px;
   transition: all 1.2s;
   position: fixed;

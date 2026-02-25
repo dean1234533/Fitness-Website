@@ -1,287 +1,349 @@
-
-
-
 * {
     box-sizing: border-box;
     max-width: 100%;
     overflow-x: hidden;
 }
 
- 
 body {
-   
-
-
-background-color: black;
-
+    background-color: black;
+    overflow-x: hidden;
 }
 
-.consultation-Guide-Container img{width:clamp( 20px,2vw,30px);color: #b30018;}
+h1 {
+    font-size: clamp(2rem, 10vw, 4rem);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
 
+h2 {
+    font-size: clamp(22px, 4vw, 36px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
 
-.content-container{text-align: center;color: aliceblue;}
- .redText{color: #b30018;}
+h3 {
+    font-size: clamp(19px, 3.5vw, 31px);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p,
+ol {
+    font-size: clamp(17px, 2.5vw, 20px);
+    line-height: 1.6rem;
+    margin: 0;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+ol,
+li {
+    overflow-y: hidden;
+}
+
+.content-container {
+    text-align: center;
+    color: aliceblue;
+}
+
+.redText {
+    color: #b30018;
+}
 
 h1 .blackDot,
-h1 .blackText{color:rgb(0, 0, 0);}
+h1 .blackText {
+    color: rgb(0, 0, 0);
+}
 
 h1 .redDot,
-h1 .redText{color: #b30018;}
-
-
-.achieve-your-fitness-goals-text p {padding-block: 40px;}
-.carouselText{background-color: white;color: black;padding: 15px;margin-bottom: 30px;}
-  .carousel-item{margin-block: 20px;}
-
-.Client-Progress-Section{background-color: white;color: black;margin-top: 20px;}
-
-.image{width:100%;max-height: 650px;margin-top: 10px;}
-
-.whiteSection{background-color: whitesmoke;color:black;width:100% ;margin: 0 auto;display: flex;flex-direction: column;align-items: center;justify-content: center;min-height: 60vh;}
-
-.whiteSection li{padding: 10px;}
-
-
-
-.widgetSection .elfsight-app-05dc06ba-bfba-4127-b40c-516ef95a5370{margin: 0 auto;}
-
-.widgetSection{background-color: white;}
-
-
- 
-
-.card4 h3,
-.card3 h3,
-.card2 h3,
-.card1 h3{ font-size: clamp(20px, 3.5vw, 30px);;margin-bottom: 20px;color: white;position: absolute;z-index: 3;left: 50%;transform: translateX(-50%);}
-
-
-.card4 p,
-.card3 p,
-.card2 p,
-.card1 p {position: absolute;color: white;top: 50%;transform: translateY(-50%);z-index: 2;text-align: left;margin-top: 30px;margin: 10px;font-size: clamp(16px, 2.5vw, 20px)}
-
-.card4 a,
-.card3 a,
-.card2 a,
- .card1 a{position: absolute;bottom: 40px;text-decoration: none;color: red;z-index: 2;padding: 10px;font-weight: bolder;}
-
-.card4,
-.card3,
-.card2,
-.card1{width: clamp(300px,45vw,450px);height:350px;margin: 10px;border-radius: 10px;transition: ease 1.2s;border: 3px solid rgb(166, 30, 30), ;background-color: rgba(0, 0, 0, 0.295);padding: 5px;position: relative;background-position: center;background-repeat: no-repeat;background-size: cover;display: flex;border-radius: 48px;
-
-box-shadow:  21px 21px 45px #969696,
-             -21px -21px 45px #ffffff;}
-
-.card1{background-image: url("../pics/IMG_7933.jpg")}
-.card2{background-image: url("../pics/IMG_7911_SnapseedCopy.jpg")}
-
-
-.card3{background-image: url("../pics/IMG_7889 2.jpg")}
-
-
-.card4{background-image: url("../pics/IMG_8091.JPG")}
-
-.card4::after ,
-.card3::after ,
-.card2::after ,
-.card1::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.6; 
-
+h1 .redText {
+    color: #b30018;
 }
 
+.achieve-your-fitness-goals-text p {
+    padding-block: 40px;
+}
 
-.cardContainer span{color: white;}
+.achieve-your-fitness-goals-text span,
+.footer-links a:hover {
+    color: #b30018;
+}
 
-.cardContainer{display: flex;flex-direction: column;align-items: center;}
-
-.heroImageContainer .heroContent{position: absolute;z-index: 4;bottom:50%;transform: translateY(50%) ;text-align: left;margin: 20px;overflow-y: hidden;}
-
-.heroContent .fade-wrapper{margin: 30px;}
-
-.btn{width: 250px;background-color: #b30018;height: 50px;border-radius: 10px;color: white;border: 1px solid white;}
-
-
-.heroImageContainer{position: relative;margin-bottom: 30px;color: aliceblue;}
-
+.heroImageContainer {
+    position: relative;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
 
 .heroImageContainer::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.4; 
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+    z-index: 1;
 }
 
+.heroImageContainer .heroContent {
+    position: absolute;
+    z-index: 4;
+    bottom: 50%;
+    transform: translateY(50%);
+    text-align: left;
+    margin: 20px;
+    overflow-y: hidden;
+}
 
+.heroContent .fade-wrapper {
+    margin: 30px;
+}
 
-
-
- 
-#carouselClientProgress{margin-top: 40px;}
-
-
-
-
-
-
+.btn {
+    width: 250px;
+    background-color: #b30018;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
 
 .consultation-btn,
 .consultation-button {
-      display: inline-block;
-      margin: 0 auto;
-      padding: 10px 20px;
-      background-color: #c33e3e;
-      color: white;
-      border: 2px solid white;
-      font-size:clamp( 18px,3vw,20px);
-      cursor: pointer;
-      text-decoration: none;
-      margin-block: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    
-    
-    }
-
-
-.consultation-Guide-List img {
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
-}
- 
-
-.Free-Consultation ,
-.Locations ,
-.Group-Training ,
-.Workout-Plans ,
-.Client-Progress ,
-.Services ,
-.Personal-Training-Sessions h2 {
     display: inline-block;
-   
-    padding-bottom: 5px;
-  
-    
-}    
+    margin: 0 auto;
+    margin-block: 20px;
+    padding: 10px 20px;
+    background-color: #c33e3e;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: clamp(18px, 3vw, 20px);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
 
+.carouselText {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-bottom: 30px;
+}
 
-  
+.carousel-item {
+    margin-block: 20px;
+}
 
-
- 
-
-.Service-List-Container,
-.consultation-Guide-Container,
- .Sessions-Include-Container{
-    display: flex;
-    justify-content: center;
-   
-}  
-
-.Service-List-Container li,
-.consultation-Guide-Container li,
-.Sessions-Include-Container li{line-height: 1.5rem;margin-bottom: 1.5rem;}
-   
-
-.Service-List-Container li::marker,
-.consultation-Guide-Container li::marker,
- .Sessions-Include-Container li::marker{ color:rgb(163, 7, 7)}
-
-
-.Training-Session-Img,
-.Workout-Plans-Group-Img,
-.Group-Training-Img{
-    
-    width: 100%;
-max-height: 600px;
-height: auto;
-display: block;
+#carouselClientProgress {
+    margin-top: 40px;
 }
 
 #carouselClientProgress,
 .carousel-item img {
-margin-bottom: 20px;
- max-width: 400px;
-margin: 0 auto;
-  overflow: hidden;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-.Testimonial-Container img{
+.card1,
+.card2,
+.card3,
+.card4 {
+    width: clamp(300px, 45vw, 450px);
+    height: 350px;
+    margin: 10px;
+    border-radius: 48px;
+    border: 3px solid rgb(166, 30, 30);
+    background-color: rgba(0, 0, 0, 0.295);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    transition: ease 1.2s;
+    box-shadow: 21px 21px 45px #969696, -21px -21px 45px #ffffff;
+}
+
+.card1 { background-image: url("../pics/IMG_7933.jpg"); }
+.card2 { background-image: url("../pics/IMG_7911_SnapseedCopy.jpg"); }
+.card3 { background-image: url("../pics/IMG_7889 2.jpg"); }
+.card4 { background-image: url("../pics/IMG_8091.JPG"); }
+
+.card1::after,
+.card2::after,
+.card3::after,
+.card4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3,
+.card4 h3 {
+    font-size: clamp(20px, 3.5vw, 30px);
+    margin-bottom: 20px;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p {
+    position: absolute;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: left;
+    margin-top: 30px;
+    margin: 10px;
+    font-size: clamp(16px, 2.5vw, 20px);
+}
+
+.card1 a,
+.card2 a,
+.card3 a,
+.card4 a {
+    position: absolute;
+    bottom: 40px;
+    text-decoration: none;
+    color: red;
+    z-index: 2;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContainer span {
+    color: white;
+}
+
+.Client-Progress-Section {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+
+.image {
+    width: 100%;
+    max-height: 650px;
+    margin-top: 10px;
+}
+
+.whiteSection {
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.whiteSection li {
+    padding: 10px;
+}
+
+.widgetSection {
+    background-color: white;
+}
+
+.widgetSection .elfsight-app-05dc06ba-bfba-4127-b40c-516ef95a5370 {
+    margin: 0 auto;
+}
+
+.Testimonial-Container {
+    margin-top: 20px;
+}
+
+.Testimonial-Container img {
     width: 130px;
     height: 130px;
     object-fit: cover;
     border-radius: 100%;
 }
 
-
-.Testimonial-Container{
-    margin-top: 20px;
+.Training-Session-Img,
+.Workout-Plans-Group-Img,
+.Group-Training-Img {
+    width: 100%;
+    max-height: 600px;
+    height: auto;
+    display: block;
 }
 
-
-
-
-h1 {
-   font-size: clamp(2rem, 10vw, 4rem);
-    margin-bottom: 20px;
-    margin-top: 20px;
-   font-family: "Changa One", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-  
-    
+.Free-Consultation,
+.Locations,
+.Group-Training,
+.Workout-Plans,
+.Client-Progress,
+.Services,
+.Personal-Training-Sessions h2 {
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
-h2 {
-     font-size: clamp(22px, 4vw, 36px);;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+.Service-List-Container,
+.consultation-Guide-Container,
+.Sessions-Include-Container {
+    display: flex;
+    justify-content: center;
 }
 
-h3 {
-    font-size: clamp(19px, 3.5vw, 31px);
-    margin-bottom: 10px;
-     margin-top: 20px;
-    font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: italic;
- 
+.Service-List-Container li,
+.consultation-Guide-Container li,
+.Sessions-Include-Container li {
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-p,ol{
-   font-size: clamp(17px, 2.5vw, 20px);
-    line-height: 1.6rem;
-      margin: 0;
-     font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-     
-}
-    
-ol,li{
-    overflow-y: hidden;
+.Service-List-Container li::marker,
+.consultation-Guide-Container li::marker,
+.Sessions-Include-Container li::marker {
+    color: rgb(163, 7, 7);
 }
 
+.consultation-Guide-Container img {
+    width: clamp(20px, 2vw, 30px);
+    color: #b30018;
+}
 
-
-
-
-
+.consultation-Guide-List img {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
 
 .callBackStickyButton {
     position: fixed;
@@ -299,202 +361,144 @@ ol,li{
 
 .callBackStickyButton svg {
     color: white;
-   margin-top: 50%;
-   transform: translateY(-50%);
-     width: clamp(70px, 10vw, 90px);
+    margin-top: 50%;
+    transform: translateY(-50%);
+    width: clamp(70px, 10vw, 90px);
     height: clamp(70px, 10vw, 90px);
 }
 
-.whiteSpace{padding: 2px;background-color: white;}
-
+.whiteSpace {
+    padding: 2px;
+    background-color: white;
+}
 
 footer {
-   
     background-color: black;
-    color:white;
+    color: white;
     padding-bottom: 20px;
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
 }
-
-
-
-.footer-bottom p{font-size: clamp(10px, 2vw, 20px);}
 
 footer p {
     margin: 20px;
     width: 95%;
     text-align: left;
-    
 }
-
-.footer-col{display: flex;flex-direction: column;}
 
 footer a {
-
     text-decoration: none;
-    color:white;
+    color: white;
     text-align: left;
-   margin-left: 20px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 
-
-
-.footerItems {display: flex;flex-direction: column;}
-
-
-
-
-
-.achieve-your-fitness-goals-text span,
-.footer-links a:hover {
-    color: #b30018;
+.footer-bottom p {
+    font-size: clamp(10px, 2vw, 20px);
 }
 
-
-
-
-@media(max-width:767px){
-
-    
-
- 
-
- 
-
- 
-
-#carouselClientProgress
-.carousel-item img {
- max-width: 50vh;
-
+.footer-col {
+    display: flex;
+    flex-direction: column;
 }
 
-
-
-
+.footerItems {
+    display: flex;
+    flex-direction: column;
 }
 
-
-
-@media(min-width:768px){
-
-.cardContainer{display: grid;grid-template-columns: 1fr 1fr;}
-
-
-.footer-columns{display: grid;grid-template-columns: 1fr 1fr 1fr;}
-
-
-.navbar .navbar-logo img{
-    width: 160px;
-    height: auto;
+@media (max-width: 767px) {
+    #carouselClientProgress .carousel-item img {
+        max-width: 50vh;
+    }
 }
 
+@media (min-width: 768px) {
+    .cardContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .navbar .navbar-logo img {
+        width: 160px;
+        height: auto;
+    }
 
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item img {
+        margin-bottom: 10px;
+    }
 
-.carousel-inner,
-.carousel-item,
-.carousel-item img   {
-margin-bottom: 10px;
-}
+    #carouselClientProgress .carousel-item img {
+        max-width: 600px;
+    }
 
-#carouselClientProgress
-.carousel-item img {
-    max-width: 600px;
+    .content-container p {
+        padding: 40px;
+    }
 
-}
+    .White-section {
+        background-color: black;
+        color: white;
+        display: block;
+        margin-bottom: -150px;
+    }
 
-.content-container p{
-    padding: 40px;
-}
+    .Testimonial-Container img {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+    }
 
-.White-section{ 
-    background-color:black;
-    color:white;
-    display: block;
-    margin-bottom: -150px;
-   
-}
+    .footer-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    .footer-links a {
+        font-size: medium;
+    }
 
+    .footer-links img {
+        width: 32px;
+    }
 
+    .mobile-only {
+        display: block;
+    }
 
-.Testimonial-Container img{
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-}
-  
-
-
-.footer-links  a{
-    font-size: medium;
-}
-  
-.footer-links  img{
-    width: 32px;
-}
-
-
-.mobile-only{
-    display: block;
-}
-
-     .desktop-only{
+    .desktop-only {
         display: none;
     }
 }
 
-@media(min-width:1200px){
+@media (min-width: 1200px) {
+    .fade-wrapper .consultation-button {
+        font-size: 22px;
+    }
 
-    
+    .table-container table th,
+    .table-container table td {
+        padding: 50px;
+        line-height: 40px;
+        font-size: larger;
+    }
 
-  
+    .sticky-button {
+        margin-right: 42px;
+    }
 
+    .footer-links a {
+        font-size: larger;
+    }
 
-
-    
-
-
-
-
-
-
-  .fade-wrapper .consultation-button{
-    font-size: 22px;
-}  
-
-
-
-  
-
-.table-container table th, td {
-    padding: 50px;
-    line-height:40px;
-   font-size: larger;
-}
-
-.sticky-button {
-    margin-right: 42px;
-}
-
-
-.footer-links  a{
-    font-size: larger;
-}
-  
-.footer-links  img{
-    width: 35px;
-}
-
-
-
-
+    .footer-links img {
+        width: 35px;
+    }
 }
 
 
