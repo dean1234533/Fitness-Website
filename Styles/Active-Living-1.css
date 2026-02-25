@@ -153,13 +153,14 @@ transform: scale(1.1);
     .content-container {
       background-color: black;
       padding: 20px;
-     
+    padding-top: 120px;
     }
 
 
 
 .content-container h1 ,h2 ,h3, p {
   padding: 20px;
+
 }
 
 .Stratford-Park-container img,
@@ -205,6 +206,7 @@ h1 {
     font-size: clamp(25px, 5vw, 49px);
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 h2 {
@@ -254,9 +256,9 @@ p,ol {
     transform: scale(0.95);
 }
 
-hr{
-      color: #b30018;
-}
+.whiteSpace{padding: 2px;background-color: white;}
+
+.redText{color: #b30018;}
 
 
 

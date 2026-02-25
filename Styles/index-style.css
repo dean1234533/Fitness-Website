@@ -281,42 +281,6 @@ ol,li{
 
 
 
-.table-container {
-    width: 100%;
-    overflow-x:hidden;
-    
-    
-   
-}
-
-.table-container table {
-    width: 100%;
-    border-collapse: collapse;
-   background-color: black;
-    color: rgb(249, 245, 245);
-    display: flex;
-    justify-content: center;
-    
-   
-}
-
-
-
-.table-container th, td {
-    padding: 20px;
-    border: 1px solid black;
-    text-align: left;
-    font-weight: bold;
-font-size: clamp(14px, 2.5vw, 40px);
-
-
-}
-
-.table-container tr:nth-child(even) {
-    padding: 10px;
-    border: 1px solid rgb(3, 3, 3);
-    
-}
 
 
 .callBackStickyButton {

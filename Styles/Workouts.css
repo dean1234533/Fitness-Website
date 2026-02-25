@@ -139,12 +139,10 @@ transform: scale(1.1);
     .content-container {
       background-color: black;
       padding: 20px;
+      padding-top: 120px;
     }
 
-.content-container h1,h2,h3{
-  text-decoration: underline ;
-  text-decoration-color: #b30018;
-}
+
 
 .content-container h1 ,h2 ,h3, p {
   padding: 20px;
@@ -234,7 +232,10 @@ p, ol {
 }
 
 
-hr{color: #b30018;}
+.whiteSpace{padding: 2px;background-color: white;}
+
+.redText{color: #b30018;}
+
 
 footer {
    

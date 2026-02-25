@@ -5,69 +5,38 @@
 
 body {
     color: white;
-    font-size: larger;
-    line-height: 2;
- font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  
+   
     
 }
 
+.whiteSection.groupTraing{padding: 20px;display: flex;justify-content: center;}
+
+.whiteSection.list{border-radius: 20px;padding-top: 50px;max-width: 650px;width: 90%;}
+
+.whiteSection{background-color: white;color: black;width: 100%;margin-top: 30px;display: flex;justify-content: center;}
+
+.whiteSection p{display: flex;align-items: center;justify-content: center;}
 
 .Sessions-Include li{padding-bottom: 50px;line-height: 20px;}
 
-.card4 h3,
-.card3 h3,
-.card2 h3,
-.card1 h3{ font-size: clamp(20px, 3.5vw, 30px);;margin-bottom: 20px;color: white;position: absolute;z-index: 3;left: 50%;transform: translateX(-50%);}
+.redText{color: #b30018;}
 
 
-.card4 p,
-.card3 p,
-.card2 p,
-.card1 p {position: absolute;color: white;top: 50%;transform: translateY(-50%);z-index: 2;text-align: left;margin-top: 30px;margin: 10px;font-size: clamp(16px, 2.5vw, 20px)}
+.Ready-to-tart-your-fitness-journey a{margin-block: 40px;}
 
-.card4 a,
-.card3 a,
-.card2 a,
- .card1 a{position: absolute;bottom: 40px;text-decoration: none;color: red;z-index: 2;padding: 10px;font-weight: bolder;}
 
-.card4,
-.card3,
-.card2,
-.card1{width:clamp( 200px,70vw,700px);height:550px;margin: 10px;transition: ease 1.2s;background-color: rgba(0, 0, 0, 0.295);padding: 5px;position: relative;background-position: center;background-repeat: no-repeat;background-size: cover;display: flex;}
+.Ready-to-tart-your-fitness-journey p{margin-bottom: 50px;width: 100%;}
 
 
 
-.card1{background-image: url("../pics/IMG_7933.jpg")}
-.card2{background-image: url("../pics/IMG_7911_SnapseedCopy.jpg")}
+.Ready-to-tart-your-fitness-journey {display: flex;flex-direction: column;}
 
 
-.card3{background-image: url("../pics/IMG_7889 2.jpg")}
+.discountsContainer {display: flex;flex-direction: column;text-align: center;}
 
+.discountsContainer h3{margin-top: 25px;}
 
-.card4{background-image: url("../pics/IMG_8091.JPG")}
-
-.card4::after ,
-.card3::after ,
-.card2::after ,
-.card1::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.6; 
-
-}
-
-
-.cardContainer span{color: white;}
-
-.cardContainer{display: flex;flex-direction: column;align-items: center;}
+.discountsContainer p{margin-top: 10px;}
 
 
 .Page-content-container{
@@ -78,15 +47,15 @@ body {
     }
 
 .content-container{
-    padding: 20px;
+    
     margin: 0 auto;
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding-top: 150px;
+   padding-top: 120px
     ;}
 
-.content-container img{width: 100%;max-height: 700px;margin-bottom: 30px;}
+.content-container img{max-height: 600px;width: 100%;}
 
 .carousel-progress-pics{
    width: 100%;
@@ -116,14 +85,15 @@ overflow: hidden;
     margin: 20px 0;
     background-color: #1f1e1e;
     color: #fbf6f6;
+    max-width:600px;
+    
     
 }
 
 .custom-box{
     margin-top: 20px;
     margin-bottom: 20px;
-    max-width: 600px;
-    min-width: 500px;
+   
     
 }
 
@@ -132,15 +102,10 @@ overflow: hidden;
     font-weight: bold;
     color: rgba(15, 98, 224, 0.628);
     text-shadow: -1px -1px 0 black;
-   
+  
 }
 
-.Price-Plans h1,
-.What-Clients-Say h3{
-    display: inline-block;
-    border-bottom: 3px solid red;
-    padding-bottom: 5px;
-}
+
 
 
 
@@ -154,14 +119,10 @@ margin-top: 35px;
 }
 
 
-.fade-wrapper > * {
-  opacity: 0;
-  transform: translateY(20px);
- 
-}
 
 
-.fade-wrapper .consultation-button {
+
+ .consultation-button {
       display: inline-block;
       margin: 0 auto;
       padding: 10px 20px;
@@ -173,7 +134,7 @@ margin-top: 35px;
       text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    
+    border: 2px solid white;
     
     }
 
@@ -184,28 +145,47 @@ h1 {
     font-size: clamp(25px, 5vw, 48px);
      margin-top: 20px;
     margin-bottom: 20px;
+     font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 h2 {
     font-size: clamp(21px, 4vw, 36px);
      margin-top: 20px;
     margin-bottom: 20px;
-  text-align: center;}
+  text-align: center;
+ font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 h3 {
     font-size: clamp(19px, 3.5vw, 30px);
-}
-
-p {
-    font-size: clamp(16px, 2.5vw, 24px);
-     margin-top: 20px;
-    margin-bottom: 20px;
+     font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 
 
+p,ol{
+   font-size: clamp(18px, 2.5vw, 22px);
+    line-height: 1.6rem;
+     margin-bottom: 20px;
+     font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+     
+}
 
+ol li::marker {
+  color: #b30018;
+}
 
+ol{margin: 10px;display: flex;flex-direction: column;align-items: center;}
+
+p{text-align: center;width: 90%;}
 
 .sticky-button {
     position: fixed;
@@ -238,9 +218,8 @@ p {
 
 
 
-hr{
-  color: #b30018;
-}
+.whiteSpace{padding: 2px;background-color: white;}
+
 
 
 footer {
@@ -359,9 +338,14 @@ footer a {
         padding-right: 7%;
     }
 
-    
-    
-   
+    .whiteSection,
+    .content-container img{width: 70%;}
+
+
+    .custom-card p{width: 100%;}
+
+    .whiteSection.groupTraing,
+   .whiteSection.your-discount{width: 100%;}
     
       .carousel-progress-pics{
         max-width: 700px;
@@ -374,7 +358,8 @@ footer a {
     margin-top: 40px;
 }
 
-  
+ p{width: 70%}
+
 .sticky-button {
     margin-right: 42px;
 }

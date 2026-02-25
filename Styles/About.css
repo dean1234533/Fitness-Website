@@ -17,6 +17,7 @@ body {
 .content-container{
     background-color: black; 
     padding: 20px;
+  
      
 }
 
@@ -24,133 +25,34 @@ body {
     margin: 10px;
 }
 
+.redText{color: #b30018;}
 
-.desktop-nav {
-      background-color:white;
-      border-left: 1px solid rgba(191, 187, 187, 0.39);
-      border-right: 1px solid rgba(191, 187, 187, 0.39);
-      
-    
-    }
+.Please-Message-Text{display: flex;flex-direction: column;text-align: center;}
 
-    
 
-    .desktop-nav .nav-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+.consultation-button {
+      display: inline-block;
       margin: 0 auto;
-      padding: 0 30px;
-      position: relative;
-     background-color: white;
-    }
-
-    .desktop-nav .nav-container::after{
-    background-color: #5348481e;
-    content: "";position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-    .desktop-nav .logo img {
-      width: 180px;
-      height: auto;
-      cursor: auto;
-    }
-
-    .desktop-nav .nav-links {
-      display: flex;
-      gap: 30px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .desktop-nav .nav-links a {
-      color: #b30018;
+      padding: 10px 20px;
+      background-color: #c33e3e;
+      color: white;
+      border: 2px solid white;
+      font-size:clamp( 18px,3vw,20px);
+      cursor: pointer;
       text-decoration: none;
-      font-size: 1.4rem;
-      padding: 10px 15px;
-      white-space: nowrap;
-      transition: all 0.3s ease;
-      font-weight: bolder;
-      z-index: 2;
-    }
-
-
-    .navbar .nav-item a:hover,
-    .desktop-nav .nav-links a:hover {
-      background-color: rgba(214, 207, 207, 0.692);
-      border: 1px solid #b30018;
-      border-radius: 4px;
-    }
-
-.navbar{
-    border-left: 1px solid rgba(191, 187, 187, 0.39);
-    border-right: 1px solid rgba(191, 187, 187, 0.39) ;
-   }
-
-.navbar .container{
-    max-width: 100%;
-}
-
-
-
- .navbar .navbar-logo img{
-    width:140px;
-    height: auto;
-    cursor: auto;
-}
-
-.navbar a {
-    font-size: 1.2rem;
-    padding: 10px 15px;
-     font-weight: bold;
-}
-
-.navbar-toggler-icon:hover { 
-  
-transform: scale(1.1);
+      margin-block: 20px;
+    font-weight: bold;
+    border-radius: 5px;
     
-}
-
-.navbar-toggler:hover{
-    background-color: gray;
- 
-}
-
-.navbar-toggler:focus{box-shadow: none;}
-
-.navbar-toggler {
-    background-color: rgba(0, 0, 0, 0.25);
-    margin-right: 40px;
-   width: 70px;
-  border-radius: 10px;
-    border: 2px solid rgb(152, 15, 15);
-}
-
-.nav-item a{
-    text-decoration: none;
-}
-
-.nav-item {
-    text-align: right;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     
-}
+    }
 
 
 
 .About-Title{
-    text-decoration: underline;
-text-decoration-color: #b30018; 
+   
 margin-left: 10px;
+padding-top: 120px;
 }
 
 
@@ -174,7 +76,7 @@ h1 {
 h2 {
     font-size: clamp(21px, 4vw, 36px);
     margin-top: 20px;
-    color: #850516;
+   
    
 }
 
@@ -182,7 +84,7 @@ h2 {
 
 p {
     font-size: clamp(16px, 2.5vw, 24px);
-    line-height: 1.6;
+    line-height: 1.9;
    
 }
 
@@ -224,9 +126,9 @@ font-size: clamp(14px, 2.5vw, 40px);
 }
 
 
-hr{
-    color: #b30018;
-}
+.whiteSpace{padding: 2px;background-color: white;}
+
+
 
 
 footer {
@@ -266,6 +168,7 @@ footer a {
 
 
 .footerItems {display: flex;flex-direction: column;}
+
 
 
 
