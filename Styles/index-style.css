@@ -5,7 +5,7 @@
 
 body {
     background-color: black;
-    overflow-x: hidden;
+    
 }
 
 h1 {
@@ -22,7 +22,7 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Changa One", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -31,7 +31,7 @@ h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: "Changa One", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -41,7 +41,7 @@ ol {
     line-height: 1.6rem;
     margin: 0;
     font-family: "Changa One", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
 }
 
