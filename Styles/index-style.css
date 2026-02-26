@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -107,18 +106,9 @@ h1 .redText {
     overflow-y: hidden;
 }
 
-.heroContent .fade-wrapper {
-    margin: 30px;
-}
 
-.btn {
-    width: 250px;
-    background-color: #b30018;
-    height: 50px;
-    border-radius: 10px;
-    color: white;
-    border: 1px solid white;
-}
+
+
 
 .consultation-btn,
 .consultation-button {
@@ -285,16 +275,6 @@ h1 .redText {
     margin: 0 auto;
 }
 
-.Testimonial-Container {
-    margin-top: 20px;
-}
-
-.Testimonial-Container img {
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 100%;
-}
 
 .Training-Session-Img,
 .Workout-Plans-Group-Img,
@@ -422,10 +402,7 @@ footer a {
         grid-template-columns: 1fr 1fr;
     }
 
-    .navbar .navbar-logo img {
-        width: 160px;
-        height: auto;
-    }
+    
 
     .carousel-inner,
     .carousel-item,
@@ -448,39 +425,18 @@ footer a {
         margin-bottom: -150px;
     }
 
-    .Testimonial-Container img {
-        width: 150px;
-        height: 150px;
-        margin-top: 10px;
-    }
+    
 
     .footer-columns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .footer-links a {
-        font-size: medium;
-    }
-
-    .footer-links img {
-        width: 32px;
-    }
-
-    .mobile-only {
-        display: block;
-    }
-
-    .desktop-only {
-        display: none;
-    }
+    
 }
 
 @media (min-width: 1200px) {
-    .fade-wrapper .consultation-button {
-        font-size: 22px;
-    }
-
+    
     .table-container table th,
     .table-container table td {
         padding: 50px;
@@ -488,17 +444,7 @@ footer a {
         font-size: larger;
     }
 
-    .sticky-button {
-        margin-right: 42px;
-    }
-
-    .footer-links a {
-        font-size: larger;
-    }
-
-    .footer-links img {
-        width: 35px;
-    }
+    
 }
 
 
