@@ -54,7 +54,11 @@ ol {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
+
+ol li{list-style: decimal inside;}
 
 ol li::marker {
     color: #b30018;
@@ -103,6 +107,7 @@ ol li::marker {
     padding-top: 50px;
     max-width: 650px;
     width: 90%;
+    
 }
 
 .Sessions-Include li {
@@ -197,34 +202,7 @@ ol li::marker {
     text-decoration: none;
 }
 
-.sticky-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    border-radius: 50%;
-    background-color: #c33e3e;
-    color: rgb(11, 11, 11);
-    border: 2px solid white;
-    font-size: clamp(14px, 3vw, 18px);
-    width: clamp(60px, 13vw, 80px);
-    height: clamp(60px, 13vw, 80px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
 
-.sticky-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-}
-
-.sticky-button:active {
-    transform: scale(0.95);
-}
 
 .redText {
     color: #b30018;
