@@ -6,24 +6,31 @@ body {
     color: white;
     background-color: white;
     overflow-x: hidden;
-    font-family: "Changa One", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    overflow-x: hidden;
+    
+   
 }
 
 h1 {
     font-size: clamp(25px, 5vw, 48px);
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 h2 {
     font-size: clamp(21px, 4vw, 36px);
     margin-block: 30px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 p {
     font-size: clamp(16px, 2.5vw, 24px);
     line-height: 1.9;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .content-container {
@@ -44,6 +51,12 @@ p {
     flex-direction: column;
     text-align: center;
 }
+
+
+
+.consultation-button:hover{
+    background-color: #9c1022;}
+
 
 .consultation-button {
     display: inline-block;

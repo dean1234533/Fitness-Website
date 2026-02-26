@@ -178,6 +178,10 @@ ol li::marker {
     width: 100%;
 }
 
+.consultation-button:hover{
+    background-color: #9c1022;}
+
+
 .consultation-button {
     display: inline-block;
     margin: 0 auto;

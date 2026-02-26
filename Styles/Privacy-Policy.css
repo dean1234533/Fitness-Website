@@ -5,9 +5,6 @@
 body{
     color: white;
     background-color: black;
-    font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: italic;
   overflow-x: hidden;
 }
 
@@ -25,6 +22,9 @@ h1 {
     margin-bottom: 20px;
     text-decoration: underline;
     text-decoration-color: red;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 h2 {
@@ -33,16 +33,25 @@ h2 {
     margin-bottom: 20px;
     text-decoration: underline;
     text-decoration-color: red;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 h3 {
     font-size: clamp(19px, 3.5vw, 30px);
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 p, ol {
     font-size: clamp(16px, 2.5vw, 24px);
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .List-Container li {

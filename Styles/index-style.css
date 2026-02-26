@@ -107,8 +107,9 @@ h1 .redText {
 }
 
 
-
-
+.consultation-btn:hover,
+.consultation-button:hover{
+    background-color: #9c1022;}
 
 .consultation-btn,
 .consultation-button {
@@ -301,6 +302,8 @@ h1 .redText {
 .Sessions-Include-Container {
     display: flex;
     justify-content: center;
+   margin-left: -50px;
+  
 }
 
 .Service-List-Container li,
@@ -315,6 +318,8 @@ h1 .redText {
 .Sessions-Include-Container li::marker {
     color: rgb(163, 7, 7);
 }
+
+
 
 .consultation-Guide-Container img {
     width: clamp(20px, 2vw, 30px);
@@ -343,8 +348,8 @@ h1 .redText {
     color: white;
     margin-top: 50%;
     transform: translateY(-50%);
-    width: clamp(70px, 10vw, 90px);
-    height: clamp(70px, 10vw, 90px);
+    width: clamp(50px, 7vw, 70px);
+    height: clamp(50px, 7vw, 70px);
 }
 
 .whiteSpace {
